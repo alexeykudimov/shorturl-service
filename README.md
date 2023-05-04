@@ -12,8 +12,8 @@
     DATABASE_URL=postgresql+asyncpg://<db_user>:<db_pass>@<db_host>:<db_port>/<db_name>
     TEST_DATABASE_URL=postgresql+asyncpg://<db_user>:<db_pass>@<db_host>:<db_port>/<db_name>
 
-    BASE_URL=<const.com>
-    URL_TAIL_LENGTH=<4>
+    BASE_URL=const.com
+    URL_TAIL_LENGTH=4
 ### :dart: Build
     docker-compose up -d
 ### :dart: Migrate
